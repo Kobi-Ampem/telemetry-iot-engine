@@ -1,0 +1,15 @@
+# Ignore Python compilation files
+__pycache__/
+*.py[cod]
+
+# Ignore the heavy local Python Virtual Environment dependencies folder
+env/
+venv/
+
+# Ignore sensitive cloud security keys and environment variables
+*.pem
+*.key
+.env
+
+# Ignore your data lake storage file (it stays local on your machine!)
+*.csv
